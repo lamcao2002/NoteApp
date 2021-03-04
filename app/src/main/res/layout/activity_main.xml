@@ -96,4 +96,18 @@
             app:tint="@color/colorIcons" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageAddNoteMain"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:background="@drawable/background_add_button"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_add"
+        app:tint="@color/purple_500"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/layoutQuickActions"
+        app:layout_constraintTop_toTopOf="@id/layoutQuickActions"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
